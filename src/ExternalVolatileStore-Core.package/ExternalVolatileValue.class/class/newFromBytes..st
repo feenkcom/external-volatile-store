@@ -1,6 +1,7 @@
 private
 newFromBytes: bytes 
 	| externalAddress |
+	self assert: bytes class equals: ByteArray. 
 	externalAddress := ExternalAddress gcallocate: bytes size.
 	bytes withIndexDo: [ :byte :index | 
 		externalAddress byteAt: index put: byte ].

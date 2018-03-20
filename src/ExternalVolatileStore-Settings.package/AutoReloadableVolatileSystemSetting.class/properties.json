@@ -6,9 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"value",
-		"settingsId"
+		"settingId",
+		"externalVolatileValue",
+		"persistence",
+		"ignoreReload"
 	],
-	"name" : "ExternalVolatileSystemSettingsValue",
+	"name" : "AutoReloadableVolatileSystemSetting",
 	"type" : "normal"
 }

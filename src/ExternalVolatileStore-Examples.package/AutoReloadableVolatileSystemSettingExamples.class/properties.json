@@ -8,6 +8,6 @@
 	"instvars" : [
 		"memory"
 	],
-	"name" : "ExternalVolatileSystemSettingsValueExamples",
+	"name" : "AutoReloadableVolatileSystemSettingExamples",
 	"type" : "normal"
 }

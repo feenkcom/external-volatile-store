@@ -1,5 +1,5 @@
 settings
-storeVolatileSettings
+storeVolatileSetting
 	<gtExample>
 	<label: 'Store a value to the volatile settings'>
 	| persistence |
@@ -8,3 +8,4 @@ storeVolatileSettings
 	persistence storeSettingNode: self volatileSettingNode.
 	self assert: persistence fileReference exists.
 	self assert: persistence fileReference size > 0.
+	^ persistence

@@ -3,7 +3,8 @@
 	"super" : "Object",
 	"category" : "ExternalVolatileStore-Examples",
 	"classinstvars" : [
-		"volatileString"
+		"volatileString",
+		"reloadableVolatileString"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
