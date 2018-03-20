@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "ExternalVolatileStore-Examples",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfExternalVolatileStore",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ExternalVolatileValueExamples",
+	"name" : "BaselineOfExternalVolatileStore",
 	"type" : "normal"
 }

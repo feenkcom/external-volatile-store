@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "ExternalVolatileStore-Examples",
+	"category" : "ExternalVolatileStore-SettingsExamples",
 	"classinstvars" : [
 		"volatileString",
 		"reloadableVolatileString"
