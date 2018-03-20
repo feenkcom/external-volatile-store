@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ExternalVolatileStore-Core-ExternalVolatileStore-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"externalAddress",
+		"bytesSize"
+	],
+	"name" : "ExternalVolatileValue",
+	"type" : "normal"
+}

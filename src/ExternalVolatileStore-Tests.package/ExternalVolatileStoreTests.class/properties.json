@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GtExampleTestCase",
+	"category" : "ExternalVolatileStore-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ExternalVolatileStoreTests",
+	"type" : "normal"
+}

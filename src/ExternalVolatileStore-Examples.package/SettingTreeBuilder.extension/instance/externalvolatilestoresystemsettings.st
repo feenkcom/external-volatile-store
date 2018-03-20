@@ -1,0 +1,3 @@
+*ExternalVolatileStore-Examples
+externalvolatilestoresystemsettings
+	currentPragma methodClass theNonMetaClass perform: currentPragma methodSelector with: self.

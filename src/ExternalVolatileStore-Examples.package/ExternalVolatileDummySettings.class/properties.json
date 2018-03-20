@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ExternalVolatileStore-Examples",
+	"classinstvars" : [
+		"volatileString"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ExternalVolatileDummySettings",
+	"type" : "normal"
+}
