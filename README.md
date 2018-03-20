@@ -73,7 +73,7 @@ SecretSettings class >> rawPassword
 
 Open System Settings, set the password as `this is my secret password`, and store it on the local disk:
 
-![System Settings](assets/img/system-settings.png)
+![System Settings](assets/img/settings-browser.png)
 
 Evaluate `SecretSettings password` and you should receive `this is my
 secret password` value. Also evaluate `SecretSettings rawPassword printString` and you will
