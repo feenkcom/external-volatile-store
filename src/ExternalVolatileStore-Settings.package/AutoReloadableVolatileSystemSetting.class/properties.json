@@ -8,8 +8,7 @@
 	"instvars" : [
 		"settingId",
 		"externalVolatileValue",
-		"persistence",
-		"ignoreReload"
+		"persistence"
 	],
 	"name" : "AutoReloadableVolatileSystemSetting",
 	"type" : "normal"
