@@ -50,7 +50,7 @@ SecretSettings class >> passwordOn: aBuilder
 
 ```Smalltalk
 SecretSettings class >> initialize
-	password := AutoReloadableVolatileSystemSetting fromString: '' settingId: #password.
+	password := AutoReloadableVolatileSystemSetting fromString: '' settingId: #mySystemPassword.
 ```
 
 Evaluate `SecretSettings initialize`.
@@ -67,7 +67,7 @@ SecretSettings class >> password: aString
 
 ```Smalltalk
 SecretSettings class >> rawPassword
-	"This method for demostration purpose only"
+	"This method is for demostration purpose only"
 	^ password
 ```
 
