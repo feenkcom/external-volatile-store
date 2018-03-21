@@ -11,7 +11,7 @@ corePackages: spec
 			package: #'ExternalVolatileStore-SettingsExamples' with: [
 				spec requires: #( 
 					#'ExternalVolatileStore-Core' 
-					#'ExternalVolatileStore-SettingsExamples' ) ];
+					#'ExternalVolatileStore-Settings' ) ];
 
 			package: #'ExternalVolatileStore-Tests' with: [
 				spec requires: #( 
