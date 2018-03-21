@@ -1,4 +1,4 @@
 accessing
 reloadableVolatileString: aString
-	self reloadableVolatileString.
+	self ensureReloadableVolatileString.
 	reloadableVolatileString value: aString

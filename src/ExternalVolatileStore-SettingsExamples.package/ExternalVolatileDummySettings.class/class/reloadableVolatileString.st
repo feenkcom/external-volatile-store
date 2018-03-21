@@ -1,6 +1,4 @@
 accessing
 reloadableVolatileString
-	reloadableVolatileString
-		ifNil: [ reloadableVolatileString := self
-				newReloadableVolatileFromString: '' ].
+	self ensureReloadableVolatileString.
 	^ reloadableVolatileString value
