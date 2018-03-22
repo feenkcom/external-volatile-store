@@ -3,14 +3,11 @@
 	"super" : "Object",
 	"category" : "ExternalVolatileStore-TemporarySettings",
 	"classinstvars" : [
-		"uniqueInstance",
 		"temporaryVolatileSettings"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"registeredSettings"
-	],
+	"instvars" : [ ],
 	"name" : "TemporarySystemSettings",
 	"type" : "normal"
 }

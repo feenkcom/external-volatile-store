@@ -1,3 +1,3 @@
 cleanup
 reset
-	uniqueInstance := nil.
+	temporaryVolatileSettings := nil. 
