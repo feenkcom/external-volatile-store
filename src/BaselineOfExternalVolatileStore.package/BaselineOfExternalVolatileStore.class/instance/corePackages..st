@@ -4,14 +4,15 @@ corePackages: spec
 		spec
 			package: #'ExternalVolatileStore-Core';
 			package: #'ExternalVolatileStore-CoreExamples' with: [
-				spec requires: #( #'ExternalVolatileStore-Core' ) ];
+				spec requires: #( #'ExternalVolatileStore-Core' #'GToolkitExamples' ) ];
 
 			package: #'ExternalVolatileStore-Settings' with: [
 				spec requires: #( #'ExternalVolatileStore-Core' ). ];
 			package: #'ExternalVolatileStore-SettingsExamples' with: [
 				spec requires: #( 
 					#'ExternalVolatileStore-Core' 
-					#'ExternalVolatileStore-Settings' ) ];
+					#'ExternalVolatileStore-Settings'
+					#'GToolkitExamples' ) ];
 			
 			package: #'ExternalVolatileStore-TemporarySettings' with: [
 				spec requires: #( 
@@ -19,7 +20,8 @@ corePackages: spec
 					#'ExternalVolatileStore-Settings' ) ];
 			package: #'ExternalVolatileStore-TemporarySettingsExamples' with: [
 				spec requires: #( 
-					#'ExternalVolatileStore-TemporarySettings' ) ];
+					#'ExternalVolatileStore-TemporarySettings'
+					#'GToolkitExamples' ) ];
 
 			package: #'ExternalVolatileStore-Tests' with: [
 				spec requires: #( 
@@ -28,5 +30,6 @@ corePackages: spec
 					#'ExternalVolatileStore-Settings'
 					#'ExternalVolatileStore-SettingsExamples'
 					#'ExternalVolatileStore-TemporarySettings'
-					#'ExternalVolatileStore-TemporarySettingsExamples' ) ]
+					#'ExternalVolatileStore-TemporarySettingsExamples'
+					#'GToolkitExamples' ) ]
 	].
