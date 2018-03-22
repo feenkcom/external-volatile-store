@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AutoReloadableVolatileSystemSetting",
+	"category" : "ExternalVolatileStore-TemporarySettings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"settings"
+	],
+	"name" : "TemporaryAutoReloadableVolatileSystemSetting",
+	"type" : "normal"
+}

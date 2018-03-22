@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ExternalVolatileStore-TemporarySettingsExamples",
+	"classinstvars" : [
+		"temporaryVolatileSettings"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TemporatyVolatileDummySettings",
+	"type" : "normal"
+}
