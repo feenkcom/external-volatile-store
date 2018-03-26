@@ -1,7 +1,7 @@
 accessing
 ensureReloadableVolatileString
 	reloadableVolatileString
-		ifNil: [ reloadableVolatileString := AutoReloadableVolatileSystemSetting new
+		ifNil: [ reloadableVolatileString := AutoReloadableVolatileSettingValue new
 						settingId: #reloadableVolatileString;
 						string: '';
 						yourself ]

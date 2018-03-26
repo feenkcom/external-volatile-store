@@ -8,6 +8,6 @@
 	"instvars" : [
 		"memory"
 	],
-	"name" : "TemporarySystemSettingsExamples",
+	"name" : "AutoReloadableVolatileTemporarySettingValueExamples",
 	"type" : "normal"
 }

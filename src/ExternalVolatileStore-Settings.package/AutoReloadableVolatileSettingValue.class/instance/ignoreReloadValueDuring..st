@@ -1,6 +1,6 @@
 private
 ignoreReloadValueDuring: aBlockClosure 
-	IgnoreReloadValue value ifNotNil: [ ^ self ].
-	IgnoreReloadValue 
+	IgnoreReloadRequest value ifNotNil: [ ^ self ].
+	IgnoreReloadRequest 
 		value: true 
 		during: [ aBlockClosure value ]

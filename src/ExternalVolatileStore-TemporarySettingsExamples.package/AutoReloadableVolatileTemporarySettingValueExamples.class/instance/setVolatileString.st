@@ -5,7 +5,7 @@ setVolatileString
 	| temporaryValue persistence |
 	persistence := self systemSettingsPersistence.
 	self assert: persistence fileReference exists not.	
-	temporaryValue := TemporaryAutoReloadableVolatileSystemSetting new.
+	temporaryValue := AutoReloadableVolatileTemporarySettingValue new.
 	temporaryValue persistence: persistence.
 	temporaryValue settings: self exampleSettings.
 	temporaryValue string: self volatileStringValue.

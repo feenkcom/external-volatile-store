@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "IgnoreReloadValue",
+	"name" : "IgnoreReloadRequest",
 	"type" : "normal"
 }

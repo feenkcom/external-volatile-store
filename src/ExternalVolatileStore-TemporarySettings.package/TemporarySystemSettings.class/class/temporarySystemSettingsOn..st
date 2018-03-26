@@ -2,7 +2,7 @@ settings
 temporarySystemSettingsOn: aBuilder
 	<systemsettings>
 	(aBuilder group: self groupId)
-		label: 'Temporaty Volatile Secure Settings';
+		label: 'Temporaty Volatile Settings';
 		description: self groupDescription;
 		with: [ | values |
 			values := self temporaryVolatileSettingItems.
@@ -15,4 +15,5 @@ temporarySystemSettingsOn: aBuilder
 								description: self itemDescription;
 								selector: #value;
 								setSelector: #value:;
+								order: 10000;
 								type: #Password ] ] ]

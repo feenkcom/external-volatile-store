@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "AutoReloadableVolatileSystemSetting",
+	"super" : "AutoReloadableVolatileSettingValue",
 	"category" : "ExternalVolatileStore-TemporarySettings",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"settings"
 	],
-	"name" : "TemporaryAutoReloadableVolatileSystemSetting",
+	"name" : "AutoReloadableVolatileTemporarySettingValue",
 	"type" : "normal"
 }

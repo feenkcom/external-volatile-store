@@ -10,6 +10,6 @@
 		"externalVolatileValue",
 		"persistence"
 	],
-	"name" : "AutoReloadableVolatileSystemSetting",
+	"name" : "AutoReloadableVolatileSettingValue",
 	"type" : "normal"
 }
