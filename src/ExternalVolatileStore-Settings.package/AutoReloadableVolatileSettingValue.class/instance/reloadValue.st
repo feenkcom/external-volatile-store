@@ -1,6 +1,5 @@
 private
 reloadValue
-	self trace: 'reload value: '; traceCr: self settingId.
 	self
 		ignoreReloadValueDuring: [ | tree nodes |
 			tree := self persistence settingTree.
