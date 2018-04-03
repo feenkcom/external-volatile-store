@@ -11,5 +11,6 @@ groups: spec
 				#'ExternalVolatileStore-SettingsExamples'
 				#'ExternalVolatileStore-TemporarySettingsExamples' );
 			group: #'tests' with: #( #'ExternalVolatileStore-Tests' );
-			group: #'default' with: #( #'core' #'settings' #'examples' #'tests' )
+			group: #'default' with: #( #'core' #'settings' #'examples' #'tests' );
+			group: #'minimal' with: #( #'core' #'settings' )
 	].
