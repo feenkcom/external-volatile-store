@@ -1,3 +1,4 @@
 initialization
 string: aString 
-	externalVolatileValue := ExternalVolatileValue fromString: aString.	
+	(self hasSameValue: aString) ifTrue: [ ^ self ].
+	externalVolatileValue := ExternalVolatileValue fromString: aString.
